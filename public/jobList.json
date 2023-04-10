@@ -3,24 +3,24 @@
     "id": 1,
     "logo": "https://res.cloudinary.com/dpeoxmblg/image/upload/v1681065093/Category/e4x44gcgjjrj6pxs28ev.png",
     "name": "Account & Finance",
-    "jobs": 120
+    "jobs": "120"
   },
   {
     "id": 2,
     "logo": "https://res.cloudinary.com/dpeoxmblg/image/upload/v1681065308/Category/eitfyjueslhsp9gyp6qj.png",
     "name": "Creative Design",
-    "jobs": 80
+    "jobs": "180"
   },
   {
     "id": 3,
     "logo": "https://res.cloudinary.com/dpeoxmblg/image/upload/v1681065308/Category/bwgeft1loyrd5wlaihej.png",
     "name": "Marketing & Sales",
-    "jobs": 60
+    "jobs": "199+"
   },
   {
     "id": 4,
     "logo": "https://res.cloudinary.com/dpeoxmblg/image/upload/v1681065307/Category/rvdgpyuwz1acl0uaiaup.png",
     "name": "Engineering Job",
-    "jobs": 40
+    "jobs": "240"
   }
 ]

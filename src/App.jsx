@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="mx-4 lg:mx-36">
+    <div className="mx-4 lg:mx-36 mb-48">
       <Header></Header>
       <div className="min-h-[calc(100vh-64px)]">
         <Outlet></Outlet>
