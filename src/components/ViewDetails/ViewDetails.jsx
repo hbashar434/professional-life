@@ -4,6 +4,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { CiDollar } from "react-icons/ci";
 import { HiOutlinePhone, HiOutlineMail } from "react-icons/hi";
 import { MdOutlineSubtitles } from "react-icons/md";
+import { addToDb } from "../../utilities/fakedb";
 
 const ViewDetails = () => {
   const [job, setJob] = useState({});
@@ -27,9 +28,13 @@ const ViewDetails = () => {
       });
   }, []);
 
+  const handleApplied = (id) => {
+    addToDb(id);
+  };
+
   return (
     <div className="mt-20 grid md:grid-cols-3 gap-2">
-      <div className="grid col-span-2 gap-2">
+      <div className="grid md:col-span-2 gap-2">
         <h1 className=" font-bold">
           Job Description :{" "}
           <span className=" font-normal">{job_description}</span>
@@ -78,7 +83,12 @@ const ViewDetails = () => {
             </h2>
           </div>
         </div>
-        <button className="my-btn-2 w-full mt-3">Apply Now</button>
+        <button
+          className="my-btn-2 w-full mt-3"
+          onClick={() => handleApplied(id)}
+        >
+          Apply Now
+        </button>
       </div>
     </div>
   );
