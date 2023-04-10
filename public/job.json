@@ -1,0 +1,110 @@
+[
+  {
+    "id": "6433c23588ca69e28487b0c7",
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png",
+    "job_title": "Software Engineer",
+    "company_name": "Google",
+    "job_type": "Remote",
+    "location": "Anywhere",
+    "job_category": "Fulltime",
+    "salary": "$120,000 - $160,000",
+    "job_description": "We are seeking a talented software engineer to join our team to develop and maintain cutting-edge software systems.",
+    "job_responsibility": "Design and develop high-quality software systems, collaborate with cross-functional teams to deliver projects on time, write clean, maintainable code, and participate in code reviews.",
+    "educational_requirements": "Bachelor's degree in Computer Science, Computer Engineering or a related field",
+    "experiences": "3+ years of experience in software development",
+    "contact_information": {
+      "phone": "1-800-GOOGLE",
+      "email": "jobs@google.com"
+    }
+  },
+  {
+    "id": "6433c2356c9ee20e402c9715",
+    "company_logo": "https://1000logos.net/wp-content/uploads/2021/04/Tesla-Logo.png",
+    "job_title": "Mechanical Engineer",
+    "company_name": "Tesla",
+    "job_type": "Onsite",
+    "location": "Fremont, CA",
+    "job_category": "Fulltime",
+    "salary": "$100,000 - $130,000",
+    "job_description": "We are looking for a highly motivated Mechanical Engineer to join our team and help us design and develop innovative products.",
+    "job_responsibility": "Design and develop mechanical systems, components and structures, perform simulations and analysis to optimize designs, collaborate with cross-functional teams to deliver projects on time, and participate in design reviews.",
+    "educational_requirements": "Bachelor's degree in Mechanical Engineering or a related field",
+    "experiences": "3+ years of experience in mechanical design and analysis",
+    "contact_information": {
+      "phone": "1-800-TESLA",
+      "email": "jobs@tesla.com"
+    }
+  },
+  {
+    "id": "6433c2355e572739b14a0d51",
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/Airbnb_Logo_B%C3%A9lo.svg",
+    "job_title": "Product Manager",
+    "company_name": "Airbnb",
+    "job_type": "Remote",
+    "location": "Anywhere",
+    "job_category": "Fulltime",
+    "salary": "$130,000 - $170,000",
+    "job_description": "We are seeking a highly motivated Product Manager to join our team and help us develop and deliver innovative products.",
+    "job_responsibility": "Collaborate with cross-functional teams to develop and deliver new products and features, conduct user research to understand user needs and behavior, define product requirements and roadmap, and work closely with designers and engineers to build and launch new products.",
+    "educational_requirements": "Bachelor's degree in Computer Science, Business Administration, or a related field",
+    "experiences": "5+ years of experience in product management",
+    "contact_information": {
+      "phone": "1-800-AIRBNB",
+      "email": "jobs@airbnb.com"
+    }
+  },
+  {
+    "id": "6433c2359afc49728262220f",
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "job_title": "Senior Software Engineer",
+    "company_name": "Netflix",
+    "job_type": "Remote",
+    "location": "Anywhere",
+    "job_category": "Fulltime",
+    "salary": "$200,000 - $250,000",
+    "job_description": "We are looking for an experienced software engineer to join our team and help us build and maintain the Netflix streaming platform.",
+    "job_responsibility": "Design and develop high-quality software systems, collaborate with cross-functional teams to deliver projects on time, write clean, maintainable code, and participate in code reviews.",
+    "educational_requirements": "Bachelor's degree in Computer Science, Computer Engineering or a related field",
+    "experiences": "8+ years of experience in software development",
+    "contact_information": {
+      "phone": "1-800-NETFLIX",
+      "email": "jobs@netflix.com"
+    }
+  },
+  {
+    "id": "6433c2761d0058f39a17690c",
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Amazon_logo_plain.svg/512px-Amazon_logo_plain.svg.png",
+    "job_title": "Senior Data Scientist",
+    "company_name": "Amazon",
+    "job_type": "Onsite",
+    "location": "Seattle, WA",
+    "job_category": "Fulltime",
+    "salary": "$150,000 - $200,000",
+    "job_description": "We are seeking a highly motivated Senior Data Scientist to join our team and help us solve complex business problems using data and analytics.",
+    "job_responsibility": "Develop and apply statistical models and machine learning algorithms to solve business problems, work with cross-functional teams to develop and implement data-driven solutions, and communicate findings and insights to stakeholders.",
+    "educational_requirements": "PhD in Statistics, Computer Science, or a related field",
+    "experiences": "5+ years of experience in data science",
+    "contact_information": {
+      "phone": "1-800-AMAZON",
+      "email": "jobs@amazon.com"
+    }
+  },
+  {
+    "id": "6433c28a8574d60ca80de897",
+    "company_logo": "https://www.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png",
+    "job_title": "Product Designer",
+    "company_name": "Facebook",
+    "job_type": "Remote",
+    "location": "Anywhere",
+    "job_category": "Fulltime",
+    "salary": "$120,000 - $160,000",
+    "job_description": "We are looking for a talented Product Designer to join our team and help us create innovative products and experiences for our users.",
+    "job_responsibility": "Collaborate with cross-functional teams to design and deliver new products and features, conduct user research to understand user needs and behavior, create wireframes, prototypes and high-fidelity designs, and work closely with engineers to implement designs.",
+    "educational_requirements": "Bachelor's degree in Design, Human-Computer Interaction, or a related field",
+    "experiences": "3+ years of experience in product design",
+    "contact_information": {
+      "phone": "1-800-FACEBOOK",
+      "email": "jobs@facebook.com"
+    }
+  }
+]

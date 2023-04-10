@@ -4,12 +4,12 @@ import CardJob from "../CardJob/CardJob";
 const JobList = () => {
   const [jobList, setJobList] = useState([]);
   useEffect(() => {
-    fetch("jobList.json")
+    fetch("list.json")
       .then((res) => res.json())
       .then((data) => setJobList(data));
   }, []);
   return (
-    <div className="mt-20">
+    <div className="mt-20 mb-20">
       <h1 className=" text-4xl font-bold mb-4 text-center">
         Job Category List
       </h1>
