@@ -1,9 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { FeaturedContext } from "../Home/Home";
 
 const ViewDetails = () => {
   const [job, setJob] = useState({});
   const {
+    job_title,
+    salary,
     job_description,
     job_responsibility,
     educational_requirements,
@@ -40,7 +43,17 @@ const ViewDetails = () => {
       </div>
       <div className="bg-gray-300 rounded px-6 py-4">
         <h1 className="font-bold text-lg">Jobs Details</h1>
-        <p><span></span></p>
+        <div className="my-4">
+        <h2 className=" font-semibold mb-2">
+          Salary : <span className=" font-normal">{salary}</span>
+        </h2>
+        <h2 className=" font-semibold">
+          Job Title : <span className=" font-normal">{job_title}</span>
+        </h2>
+        </div>
+        <div>
+            <h1>Contact Information</h1>
+        </div>
       </div>
     </div>
   );
