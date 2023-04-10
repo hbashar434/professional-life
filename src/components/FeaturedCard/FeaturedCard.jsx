@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { CiLocationOn } from "react-icons/ci";
+import { CiDollar } from "react-icons/ci";
 
 const FeaturedCard = ({ job }) => {
   const {
@@ -25,8 +27,13 @@ const FeaturedCard = ({ job }) => {
           <button className="my-btn">{job_category}</button>
         </div>
         <div className="flex gap-8">
-          <p>{location}</p>
-          <p>{salary}</p>
+          <p className="flex items-center">
+            {" "}
+            <CiLocationOn size={24} /> {location}
+          </p>
+          <p className="flex items-center">
+            <CiDollar size={24} /> {salary}
+          </p>
         </div>
       </div>
       <Link to={`/details/${id}`}>

@@ -1,6 +1,9 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { FeaturedContext } from "../Home/Home";
+import { CiLocationOn } from "react-icons/ci";
+import { CiDollar } from "react-icons/ci";
+import { HiOutlinePhone, HiOutlineMail } from "react-icons/hi";
+import { MdOutlineSubtitles } from "react-icons/md";
 
 const ViewDetails = () => {
   const [job, setJob] = useState({});
@@ -17,7 +20,7 @@ const ViewDetails = () => {
   } = job;
   const { id } = useParams();
   useEffect(() => {
-    fetch("../job.json")
+    fetch("/job.json")
       .then((res) => res.json())
       .then((data) => {
         setJob(data.find((dt) => dt.id === id));
@@ -46,23 +49,31 @@ const ViewDetails = () => {
       <div>
         <div className="bg-gray-200 rounded px-6 py-4">
           <h1 className="font-bold text-lg">Jobs Details</h1>
-          <div className="my-4">
-            <h2 className=" font-semibold mb-2">
+          <p className="border-b border-gray-300 my-4"></p>
+          <div>
+            <h2 className=" font-semibold mb-2 flex">
+              <CiDollar size={24} />
               Salary : <span className=" font-normal">{salary}</span>
             </h2>
-            <h2 className=" font-semibold">
+            <h2 className=" font-semibold flex">
+              <MdOutlineSubtitles size={24} />
               Job Title : <span className=" font-normal">{job_title}</span>
             </h2>
           </div>
           <div>
-            <h1 className="text-lg font-bold mb-4">Contact Information</h1>
-            <h2 className=" font-semibold mb-2">
+            <h1 className="text-lg font-bold my-4">Contact Information</h1>
+            <p className="border-b border-gray-300 my-4"></p>
+            <h2 className=" font-semibold mb-2 flex">
+              <HiOutlinePhone size={24} />
               Phone : <span className=" font-normal">{phone}</span>
             </h2>
-            <h2 className=" font-semibold mb-2">
+            <h2 className=" font-semibold mb-2 flex">
+              <HiOutlineMail size={24} /> 
               Email : <span className=" font-normal">{email}</span>
             </h2>
-            <h2 className=" font-semibold mb-2">
+            <h2 className=" font-semibold mb-2 flex">
+              {" "}
+              <CiLocationOn size={24} />
               Address : <span className=" font-normal">{location}</span>
             </h2>
           </div>

@@ -18,6 +18,9 @@ const FeaturedJob = () => {
               <FeaturedCard key={job.id} job={job}></FeaturedCard>
             ))
           : ""}
+        {/* {data.map((job) => (
+          <FeaturedCard key={job.id} job={job}></FeaturedCard>
+        ))} */}
       </div>
     </div>
   );
