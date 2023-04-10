@@ -24,9 +24,9 @@ const getAppliedJob = () => {
   let appliedJob = {};
 
   //get the shopping cart from local storage
-  const storedCart = localStorage.getItem("appliedJob-list");
-  if (storedCart) {
-    appliedJob = JSON.parse(storedCart);
+  const storedJob = localStorage.getItem("appliedJob-list");
+  if (storedJob) {
+    appliedJob = JSON.parse(storedJob);
   }
   return appliedJob;
 };
