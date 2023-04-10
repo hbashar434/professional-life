@@ -28,8 +28,8 @@ const ViewDetails = () => {
   }, []);
 
   return (
-    <div className="mt-20 grid md:grid-cols-3 gap-8">
-      <div className="grid col-span-2 gap-3">
+    <div className="mt-20 grid md:grid-cols-3 gap-2">
+      <div className="grid col-span-2 gap-2">
         <h1 className=" font-bold">
           Job Description :{" "}
           <span className=" font-normal">{job_description}</span>
@@ -51,29 +51,29 @@ const ViewDetails = () => {
           <h1 className="font-bold text-lg">Jobs Details</h1>
           <p className="border-b border-gray-300 my-4"></p>
           <div>
-            <h2 className=" font-semibold mb-2 flex">
-              <CiDollar size={24} />
+            <h2 className=" font-semibold mb-2 flex items-center gap-1">
+              <CiDollar size={20} className="text-indigo-500" />
               Salary : <span className=" font-normal">{salary}</span>
             </h2>
-            <h2 className=" font-semibold flex">
-              <MdOutlineSubtitles size={24} />
+            <h2 className=" font-semibold flex items-center gap-1">
+              <MdOutlineSubtitles size={20} className="text-indigo-500" />
               Job Title : <span className=" font-normal">{job_title}</span>
             </h2>
           </div>
           <div>
             <h1 className="text-lg font-bold my-4">Contact Information</h1>
             <p className="border-b border-gray-300 my-4"></p>
-            <h2 className=" font-semibold mb-2 flex">
-              <HiOutlinePhone size={24} />
+            <h2 className=" font-semibold mb-2 flex items-center gap-1">
+              <HiOutlinePhone size={20} className="text-indigo-500" />
               Phone : <span className=" font-normal">{phone}</span>
             </h2>
-            <h2 className=" font-semibold mb-2 flex">
-              <HiOutlineMail size={24} /> 
+            <h2 className=" font-semibold mb-2 flex items-center gap-1">
+              <HiOutlineMail size={20} className="text-indigo-500" />
               Email : <span className=" font-normal">{email}</span>
             </h2>
-            <h2 className=" font-semibold mb-2 flex">
+            <h2 className=" font-semibold mb-2 flex items-center gap-1">
               {" "}
-              <CiLocationOn size={24} />
+              <CiLocationOn size={20} className="text-indigo-500" />
               Address : <span className=" font-normal">{location}</span>
             </h2>
           </div>

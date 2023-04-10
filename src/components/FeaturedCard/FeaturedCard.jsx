@@ -27,12 +27,12 @@ const FeaturedCard = ({ job }) => {
           <button className="my-btn">{job_category}</button>
         </div>
         <div className="flex gap-8">
-          <p className="flex items-center">
+          <p className="flex items-center gap-1">
             {" "}
-            <CiLocationOn size={24} /> {location}
+            <CiLocationOn size={20} className="text-indigo-500" /> {location}
           </p>
-          <p className="flex items-center">
-            <CiDollar size={24} /> {salary}
+          <p className="flex items-center gap-1">
+            <CiDollar size={20} className="text-indigo-500" /> {salary}
           </p>
         </div>
       </div>
