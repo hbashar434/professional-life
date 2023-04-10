@@ -16,7 +16,7 @@ const FeaturedCard = ({ job }) => {
   } = job;
   return (
     <div className="bg-gray-50 border p-8">
-      <figure className=" h-10">
+      <figure className="w-48 h-10">
         <img src={company_logo} alt="company-logo" />
       </figure>
       <div className="mt-6 mb-4">

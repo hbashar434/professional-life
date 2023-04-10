@@ -19,7 +19,7 @@ const AppliedJobCard = ({ job }) => {
     <div className=" border p-4 flex items-center justify-between">
       <div className="flex items-center gap-10">
         <div className="bg-gray-200 py-16 px-10">
-        <figure className="h-10">
+        <figure className="h-10 w-36">
           <img src={company_logo} alt="company-logo" />
         </figure>
         </div>
