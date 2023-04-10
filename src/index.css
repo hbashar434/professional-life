@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-btn {
+  @apply border-2 border-indigo-300 py-1 px-3 my-2 rounded-lg font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text;
+}
+.my-btn-2 {
+  @apply border-2 text-white  py-3 px-4 rounded-lg font-semibold bg-gradient-to-r from-indigo-500 to-purple-600;
+}
+

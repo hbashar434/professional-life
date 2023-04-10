@@ -18,7 +18,7 @@ const Banner = () => {
           from start to finish.
         </p>
         <Link>
-          <button className="mt-8 btn border-none bg-gradient-to-r from-indigo-500 via-indigo-500 to-pink-400">
+          <button className="mt-8 my-btn-2">
             Get Started
           </button>
         </Link>

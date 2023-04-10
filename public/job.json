@@ -1,7 +1,7 @@
 [
   {
     "id": "6433c23588ca69e28487b0c7",
-    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png",
+    "company_logo": "https://res.cloudinary.com/dpeoxmblg/image/upload/v1681106617/assets/logos/w3g9id6ywqobzjxwu1eq.png",
     "job_title": "Software Engineer",
     "company_name": "Google",
     "job_type": "Remote",
@@ -19,7 +19,7 @@
   },
   {
     "id": "6433c2356c9ee20e402c9715",
-    "company_logo": "https://1000logos.net/wp-content/uploads/2021/04/Tesla-Logo.png",
+    "company_logo": "https://res.cloudinary.com/dpeoxmblg/image/upload/v1681106617/assets/logos/rb2fktllmvvkmwps0yve.png",
     "job_title": "Mechanical Engineer",
     "company_name": "Tesla",
     "job_type": "Onsite",
@@ -37,7 +37,7 @@
   },
   {
     "id": "6433c2355e572739b14a0d51",
-    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/Airbnb_Logo_B%C3%A9lo.svg",
+    "company_logo": "https://res.cloudinary.com/dpeoxmblg/image/upload/v1681106617/assets/logos/spo6nu5fbdauwrjutfm2.png",
     "job_title": "Product Manager",
     "company_name": "Airbnb",
     "job_type": "Remote",
@@ -55,7 +55,7 @@
   },
   {
     "id": "6433c2359afc49728262220f",
-    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "company_logo": "https://res.cloudinary.com/dpeoxmblg/image/upload/v1681106617/assets/logos/zptkibv958lnigujrkj5.png",
     "job_title": "Senior Software Engineer",
     "company_name": "Netflix",
     "job_type": "Remote",
@@ -73,8 +73,8 @@
   },
   {
     "id": "6433c2761d0058f39a17690c",
-    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Amazon_logo_plain.svg/512px-Amazon_logo_plain.svg.png",
-    "job_title": "Senior Data Scientist",
+    "company_logo": "https://res.cloudinary.com/dpeoxmblg/image/upload/v1681106617/assets/logos/spo6nu5fbdauwrjutfm2.png",
+    "job_title": "Technical Database Engineer",
     "company_name": "Amazon",
     "job_type": "Onsite",
     "location": "Seattle, WA",
@@ -91,7 +91,7 @@
   },
   {
     "id": "6433c28a8574d60ca80de897",
-    "company_logo": "https://www.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png",
+    "company_logo": "https://res.cloudinary.com/dpeoxmblg/image/upload/v1681106617/assets/logos/spo6nu5fbdauwrjutfm2.png",
     "job_title": "Product Designer",
     "company_name": "Facebook",
     "job_type": "Remote",

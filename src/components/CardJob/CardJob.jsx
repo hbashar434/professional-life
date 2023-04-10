@@ -2,7 +2,6 @@ import React from "react";
 
 const CardJob = ({ job }) => {
   const { id, logo, name, jobs } = job;
-  console.log(job);
   return (
     <div className="bg-gray-100 w-full p-8 grid gap-4">
       <figure>
