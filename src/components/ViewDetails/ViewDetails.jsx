@@ -7,11 +7,13 @@ const ViewDetails = () => {
   const {
     job_title,
     salary,
+    location,
     job_description,
     job_responsibility,
     educational_requirements,
     experiences,
-    contact_information,
+    phone,
+    email,
   } = job;
   const { id } = useParams();
   useEffect(() => {
@@ -41,19 +43,31 @@ const ViewDetails = () => {
           Experiences : <p className=" font-normal">{experiences}</p>
         </h2>
       </div>
-      <div className="bg-gray-300 rounded px-6 py-4">
-        <h1 className="font-bold text-lg">Jobs Details</h1>
-        <div className="my-4">
-        <h2 className=" font-semibold mb-2">
-          Salary : <span className=" font-normal">{salary}</span>
-        </h2>
-        <h2 className=" font-semibold">
-          Job Title : <span className=" font-normal">{job_title}</span>
-        </h2>
+      <div>
+        <div className="bg-gray-200 rounded px-6 py-4">
+          <h1 className="font-bold text-lg">Jobs Details</h1>
+          <div className="my-4">
+            <h2 className=" font-semibold mb-2">
+              Salary : <span className=" font-normal">{salary}</span>
+            </h2>
+            <h2 className=" font-semibold">
+              Job Title : <span className=" font-normal">{job_title}</span>
+            </h2>
+          </div>
+          <div>
+            <h1 className="text-lg font-bold mb-4">Contact Information</h1>
+            <h2 className=" font-semibold mb-2">
+              Phone : <span className=" font-normal">{phone}</span>
+            </h2>
+            <h2 className=" font-semibold mb-2">
+              Email : <span className=" font-normal">{email}</span>
+            </h2>
+            <h2 className=" font-semibold mb-2">
+              Address : <span className=" font-normal">{location}</span>
+            </h2>
+          </div>
         </div>
-        <div>
-            <h1>Contact Information</h1>
-        </div>
+        <button className="my-btn-2 w-full mt-3">Apply Now</button>
       </div>
     </div>
   );

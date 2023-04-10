@@ -12,10 +12,8 @@
     "job_responsibility": "Design and develop high-quality software systems, collaborate with cross-functional teams to deliver projects on time, write clean, maintainable code, and participate in code reviews.",
     "educational_requirements": "Bachelor's degree in Computer Science, Computer Engineering or a related field",
     "experiences": "3+ years of experience in software development",
-    "contact_information": {
-      "phone": "1-800-GOOGLE",
-      "email": "jobs@google.com"
-    }
+    "phone": "1-800-GOOGLE",
+    "email": "jobs@google.com"
   },
   {
     "id": "6433c2356c9ee20e402c9715",
@@ -30,10 +28,8 @@
     "job_responsibility": "Design and develop mechanical systems, components and structures, perform simulations and analysis to optimize designs, collaborate with cross-functional teams to deliver projects on time, and participate in design reviews.",
     "educational_requirements": "Bachelor's degree in Mechanical Engineering or a related field",
     "experiences": "3+ years of experience in mechanical design and analysis",
-    "contact_information": {
-      "phone": "1-800-TESLA",
-      "email": "jobs@tesla.com"
-    }
+    "phone": "1-800-TESLA",
+    "email": "jobs@tesla.com"
   },
   {
     "id": "6433c2355e572739b14a0d51",
@@ -48,10 +44,8 @@
     "job_responsibility": "Collaborate with cross-functional teams to develop and deliver new products and features, conduct user research to understand user needs and behavior, define product requirements and roadmap, and work closely with designers and engineers to build and launch new products.",
     "educational_requirements": "Bachelor's degree in Computer Science, Business Administration, or a related field",
     "experiences": "5+ years of experience in product management",
-    "contact_information": {
-      "phone": "1-800-AIRBNB",
-      "email": "jobs@airbnb.com"
-    }
+    "phone": "1-800-AIRBNB",
+    "email": "jobs@airbnb.com"
   },
   {
     "id": "6433c2359afc49728262220f",
@@ -66,10 +60,8 @@
     "job_responsibility": "Design and develop high-quality software systems, collaborate with cross-functional teams to deliver projects on time, write clean, maintainable code, and participate in code reviews.",
     "educational_requirements": "Bachelor's degree in Computer Science, Computer Engineering or a related field",
     "experiences": "8+ years of experience in software development",
-    "contact_information": {
-      "phone": "1-800-NETFLIX",
-      "email": "jobs@netflix.com"
-    }
+    "phone": "1-800-NETFLIX",
+    "email": "jobs@netflix.com"
   },
   {
     "id": "6433c2761d0058f39a17690c",
@@ -84,10 +76,8 @@
     "job_responsibility": "Develop and apply statistical models and machine learning algorithms to solve business problems, work with cross-functional teams to develop and implement data-driven solutions, and communicate findings and insights to stakeholders.",
     "educational_requirements": "PhD in Statistics, Computer Science, or a related field",
     "experiences": "5+ years of experience in data science",
-    "contact_information": {
-      "phone": "1-800-AMAZON",
-      "email": "jobs@amazon.com"
-    }
+    "phone": "1-800-AMAZON",
+    "email": "jobs@amazon.com"
   },
   {
     "id": "6433c28a8574d60ca80de897",
@@ -102,9 +92,7 @@
     "job_responsibility": "Collaborate with cross-functional teams to design and deliver new products and features, conduct user research to understand user needs and behavior, create wireframes, prototypes and high-fidelity designs, and work closely with engineers to implement designs.",
     "educational_requirements": "Bachelor's degree in Design, Human-Computer Interaction, or a related field",
     "experiences": "3+ years of experience in product design",
-    "contact_information": {
-      "phone": "1-800-FACEBOOK",
-      "email": "jobs@facebook.com"
-    }
+    "phone": "1-800-FACEBOOK",
+    "email": "jobs@facebook.com"
   }
 ]

@@ -11,11 +11,6 @@ const FeaturedCard = ({ job }) => {
     location,
     job_category,
     salary,
-    job_description,
-    job_responsibility,
-    educational_requirements,
-    experiences,
-    contact_information,
   } = job;
   return (
     <div className="bg-gray-50 border p-8">
