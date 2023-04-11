@@ -15,28 +15,35 @@ const AppliedJobs = () => {
     const storedList = getAppliedJob();
     const savedList = [];
     for (const id in storedList) {
-      const addedProduct = jobs.find((product) => product.id === id);
-      if (addedProduct) {
+      const addedJob = jobs.find((job) => job.id === id);
+      if (addedJob) {
         const quantity = storedList[id];
-        addedProduct.quantity = quantity;
-        savedList.push(addedProduct);
+        addedJob.quantity = quantity;
+        savedList.push(addedJob);
         setList(savedList);
       }
     }
   }, [jobs]);
-
-  useEffect(() => {
-    const remote = list.filter((jb) => jb.job_type == "Remote");
-    console.log(remote);
-  }, [list]);
+  const filterByRemote = () => {
+    setList(list.filter((jb) => jb.job_type == "Remote"));
+  };
+  const filterByOnsite = () => {
+    setList(list.filter((jb) => jb.job_type == "Onsite"));
+  };
 
   return (
     <div>
       <h1 className="font-bold text-4xl my-16 text-center">Applied Jobs</h1>
       <div className="grid gap-8 my-16">
+        <button className="my-btn-2" onClick={filterByRemote}>
+          Filter By Remote
+        </button>
+        <button className="my-btn-2" onClick={filterByOnsite}>
+          Filter By Onsite
+        </button>
         <div className="flex justify-end">
           <select className="select select-primary w-28 max-w-xs">
-            <option disabled value="">
+            <option disabled selected value="">
               Filter By
             </option>
             <option value="Remote">Remote</option>
