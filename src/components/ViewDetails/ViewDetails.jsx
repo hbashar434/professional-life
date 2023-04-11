@@ -4,7 +4,8 @@ import { CiLocationOn } from "react-icons/ci";
 import { CiDollar } from "react-icons/ci";
 import { HiOutlinePhone, HiOutlineMail } from "react-icons/hi";
 import { MdOutlineSubtitles } from "react-icons/md";
-import { addToDb } from "../../utilities/fakedb";
+import { addToDb, getAppliedJob } from "../../utilities/fakedb";
+import toast, { Toaster } from "react-hot-toast";
 
 const ViewDetails = () => {
   const [job, setJob] = useState({});
@@ -29,7 +30,17 @@ const ViewDetails = () => {
   }, []);
 
   const handleAppliedJob = (id) => {
-    addToDb(id);
+    const storedList = getAppliedJob();
+    const savedList = [];
+    for (const jb in storedList) {
+      savedList.push(jb);
+    }
+    const addedJob = savedList.find((j) => j == id);
+    if (!addedJob) {
+      addToDb(id);
+    } else {
+      toast.error("You have already applied for this job!");
+    }
   };
 
   return (
@@ -91,6 +102,7 @@ const ViewDetails = () => {
           >
             Apply Now
           </button>
+          <Toaster />
         </div>
       </div>
     </div>
