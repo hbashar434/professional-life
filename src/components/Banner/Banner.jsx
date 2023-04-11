@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Lottie from "lottie-react";
+import search from "../../assets/search.json";
 
 const Banner = () => {
   return (
@@ -18,13 +20,12 @@ const Banner = () => {
           from start to finish.
         </p>
         <Link>
-          <button className="mt-8 my-btn-2">
-            Get Started
-          </button>
+          <button className="mt-8 my-btn-2">Get Started</button>
         </Link>
       </div>
       <figure>
-        <img src="banner.png" alt="banner-image" />
+        {/* <img src="banner.png" alt="banner-image" /> */}
+        <Lottie animationData={search} loop={true}></Lottie>
       </figure>
     </div>
   );
