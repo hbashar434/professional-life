@@ -5,6 +5,8 @@ import AppliedJobCard from "../AppliedJobCard/AppliedJobCard";
 const AppliedJobs = () => {
   const [jobs, setJobs] = useState([]);
   const [list, setList] = useState([]);
+  const [filterList, setFilterList] = useState([]);
+
   useEffect(() => {
     fetch("job.json")
       .then((res) => res.json())
@@ -21,36 +23,30 @@ const AppliedJobs = () => {
         addedJob.quantity = quantity;
         savedList.push(addedJob);
         setList(savedList);
+        setFilterList(savedList);
       }
     }
   }, [jobs]);
-  const filterByRemote = () => {
-    setList(list.filter((jb) => jb.job_type == "Remote"));
-  };
-  const filterByOnsite = () => {
-    setList(list.filter((jb) => jb.job_type == "Onsite"));
+
+  const handleFilter = (value) => {
+    setFilterList(list.filter((jb) => jb.job_type == value));
   };
 
   return (
     <div>
       <h1 className="font-bold text-4xl my-16 text-center">Applied Jobs</h1>
       <div className="grid gap-8 my-16">
-        <button className="my-btn-2" onClick={filterByRemote}>
-          Filter By Remote
-        </button>
-        <button className="my-btn-2" onClick={filterByOnsite}>
-          Filter By Onsite
-        </button>
         <div className="flex justify-end">
-          <select className="select select-primary w-28 max-w-xs">
-            <option disabled selected value="">
-              Filter By
-            </option>
+          <select
+            className="select select-primary w-28 max-w-xs"
+            onChange={(event) => handleFilter(event.target.value)}
+          >
+            <option>Filter By</option>
             <option value="Remote">Remote</option>
             <option value="Onsite">Onsite</option>
           </select>
         </div>
-        {list.map((job) => (
+        {filterList.map((job) => (
           <AppliedJobCard key={job.id} job={job}></AppliedJobCard>
         ))}
       </div>
