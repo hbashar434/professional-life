@@ -41,9 +41,7 @@ const AppliedJobs = () => {
             className="select select-primary w-28 max-w-xs"
             onChange={(event) => handleFilter(event.target.value)}
           >
-            <option selected disabled>
-              Filter By
-            </option>
+            <option>Filter By</option>
             <option value="Remote">Remote</option>
             <option value="Onsite">Onsite</option>
           </select>

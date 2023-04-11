@@ -46,13 +46,13 @@ const Header = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li className="font-semibold">
+          <li className="font-semibold mr-2">
             <NavLink to="/">Home</NavLink>
           </li>
-          <li className="font-semibold">
+          <li className="font-semibold mr-2">
             <NavLink to="/statistic">Statistics</NavLink>
           </li>
-          <li className="font-semibold">
+          <li className="font-semibold mr-2">
             <NavLink to="/applied-jobs">Applied Jobs</NavLink>
           </li>
           <li className="font-semibold">
