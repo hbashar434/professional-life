@@ -10,27 +10,27 @@ import {
 const data = [
   {
     name: "A1",
-    Marks: 57,
-    fill: "#FF8400",
+    Marks: 60,
+    fill: "#8884d8",
   },
   {
     name: "A2",
-    Marks: 60,
+    Marks: 45,
     fill: "#52DE97",
   },
   {
     name: "A3",
-    Marks: 60,
-    fill: "#E49393",
+    Marks: 30,
+    fill: "#a4de6c",
   },
   {
     name: "A4",
-    Marks: 59,
-    fill: "#F9F54B",
+    Marks: 20,
+    fill: "#ffc658",
   },
   {
     name: "A5",
-    Marks: 60,
+    Marks: 47,
     fill: "#F2CD5C",
   },
   {
@@ -40,7 +40,7 @@ const data = [
   },
   {
     name: "A7",
-    Marks: 60,
+    Marks: 52,
     fill: "#94B3FD",
   },
   {

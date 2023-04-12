@@ -39,9 +39,12 @@ const AppliedJobs = () => {
         <div className="flex justify-end">
           <select
             className="select select-primary w-28 max-w-xs"
+            defaultValue="Filter"
             onChange={(event) => handleFilter(event.target.value)}
           >
-            <option>Filter By</option>
+            <option value="Filter" disabled>
+              Filter By
+            </option>
             <option value="Remote">Remote</option>
             <option value="Onsite">Onsite</option>
           </select>

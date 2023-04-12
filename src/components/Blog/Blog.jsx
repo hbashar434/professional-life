@@ -27,7 +27,7 @@ const Blog = () => {
     <div>
       <h1 className="font-bold text-4xl my-16 text-center">Blog</h1>
       {data.map((blog, idx) => (
-        <div tabIndex={0} className="collapse group" key={idx}>
+        <div tabIndex={0} className="collapse collapse-arrow group" key={idx}>
           <div className="collapse-title bg-indigo-600 rounded-xl text-primary-content text-3xl group-focus:bg-indigo-900 group-focus:text-secondary-content">
             {blog.question}
           </div>

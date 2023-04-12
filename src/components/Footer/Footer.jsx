@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div className=" mt-36">
       <footer className="footer p-10 md:pl-36 bg-base-200 text-base-content">
         <div>
           <span className="text-2xl font-bold text-gray-600">
@@ -79,15 +79,17 @@ const Footer = () => {
       </footer>
       <footer className="footer px-10 py-4 md:px-36 border-t bg-base-200 text-base-content border-base-300">
         <div className="items-center grid-flow-col">
-          <img src="/public/logo.ico" alt="" className="h-10 w-10" />
+          <img src="/workCycle.png" alt="" className="w-12 h-12" />
           <p>
             professionalLife <br />
             Providing reliable services since 2013
           </p>
         </div>
         <div className="md:place-self-center md:justify-self-end">
-          <p>Powered By professionalLife</p>
-          <p>@2023 professionalLife. All Rights Reserved</p>
+          <p>
+            Powered By professionalLife <br />
+            @2023 professionalLife. All Rights Reserved
+          </p>
         </div>
       </footer>
     </div>
