@@ -38,6 +38,7 @@ const ViewDetails = () => {
     const addedJob = savedList.find((j) => j == id);
     if (!addedJob) {
       addToDb(id);
+      toast.success("You have applied successfully.");
     } else {
       toast.error("You have already applied for this job!");
     }

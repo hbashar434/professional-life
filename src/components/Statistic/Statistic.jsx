@@ -1,5 +1,11 @@
 import React from "react";
-import { RadialBarChart, RadialBar, Legend, Tooltip } from "recharts";
+import {
+  RadialBarChart,
+  RadialBar,
+  Legend,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 
 const data = [
   {
@@ -53,7 +59,7 @@ const Statistic = () => {
   return (
     <div>
       <h1 className=" text-4xl font-bold  my-20 text-center">Statistics</h1>
-      <div className="grid justify-center items-center">
+      <div className="md:grid justify-center items-center ">
         <RadialBarChart
           width={500}
           height={300}
