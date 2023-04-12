@@ -27,16 +27,44 @@ const Header = () => {
             className="menu menu-compact dropdown-content mt-1 p-2 shadow bg-base-100 rounded-box w-32"
           >
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? "text-indigo-600" : "text-gray-700"
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/statistic">Statistics</NavLink>
+              <NavLink
+                to="/statistic"
+                className={({ isActive }) =>
+                  isActive ? "text-indigo-600" : "text-gray-700"
+                }
+              >
+                Statistics
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/applied-jobs">Applied Jobs</NavLink>
+              <NavLink
+                to="/applied-jobs"
+                className={({ isActive }) =>
+                  isActive ? "text-indigo-600" : "text-gray-700"
+                }
+              >
+                Applied Jobs
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/blog">Blog</NavLink>
+              <NavLink
+                to="/blog"
+                className={({ isActive }) =>
+                  isActive ? "text-indigo-600" : "text-gray-700"
+                }
+              >
+                Blog
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -47,16 +75,44 @@ const Header = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li className="font-semibold mr-2">
-            <NavLink to="/">Home</NavLink>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "text-indigo-600" : "text-gray-700"
+              }
+            >
+              Home
+            </NavLink>
           </li>
           <li className="font-semibold mr-2">
-            <NavLink to="/statistic">Statistics</NavLink>
+            <NavLink
+              to="/statistic"
+              className={({ isActive }) =>
+                isActive ? "text-indigo-600" : "text-gray-700"
+              }
+            >
+              Statistics
+            </NavLink>
           </li>
           <li className="font-semibold mr-2">
-            <NavLink to="/applied-jobs">Applied Jobs</NavLink>
+            <NavLink
+              to="/applied-jobs"
+              className={({ isActive }) =>
+                isActive ? "text-indigo-600" : "text-gray-700"
+              }
+            >
+              Applied Jobs
+            </NavLink>
           </li>
           <li className="font-semibold">
-            <NavLink to="/blog">Blog</NavLink>
+            <NavLink
+              to="/blog"
+              className={({ isActive }) =>
+                isActive ? "text-indigo-600" : "text-gray-700"
+              }
+            >
+              Blog
+            </NavLink>
           </li>
         </ul>
       </div>
